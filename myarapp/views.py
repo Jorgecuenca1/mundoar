@@ -11,7 +11,7 @@ class ARSceneView(View):
         return render(request, self.template_name)
 
 class indexView(View):
-    template_name = 'myarapp/index.html'
+    template_name = 'myarapp/leo.html'
 
     def get(self, request, *args, **kwargs):
         return render(request, self.template_name)
