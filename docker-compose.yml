@@ -15,7 +15,7 @@ services:
     container_name: https-portal
     ports:
       - '80:80'
-      - '443:443'leolara.vueanalytic.com
+      - '443:443'
     environment:
       DOMAINS: 'leolara.vueanalytic.com -> http://web:8000'
       STAGE: 'staging' # Don't use production until staging works
