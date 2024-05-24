@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--fx+p&%yh4yx=%9-&%lls6pdb6dmm#x14&*z(rh=$gpyg1p77d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['leolara.vueanalytic.com','*']
 
 
 # Application definition
