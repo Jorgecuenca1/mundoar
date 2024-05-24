@@ -33,13 +33,14 @@
 <body style='margin: 0px; overflow: hidden;'>
     <a-scene embedded arjs='sourceType: webcam;'>
         <a-assets timeout="10000">
-            <a-asset-item id="myOBJModel" src="/media/radio.obj"></a-asset-item>
+            <a-asset-item id="myOBJModel" src="/media/radio2.obj"></a-asset-item>
+            <a-asset-item id="myMTLModel" src="/media/radio2.mtl"></a-asset-item>
         </a-assets>
         <a-marker preset='hiro' registerevents>
             <!-- Adding an OBJ file to an AR Project -->
             <a-entity id="myModel" 
                 obj-model="obj: #myOBJModel; mtl: #myMTLModel" 
-                scale="0.05 0.05 0.05" 
+                scale="1 1 1" 
                 position="0 0 0" 
                 rotation="0 0 0" 
                 visible="false">
